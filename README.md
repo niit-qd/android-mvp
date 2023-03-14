@@ -25,7 +25,7 @@ a mplementation of MVP resolution in Android platform
             *注：不推荐这种方案，仅供有兴趣的同学参考对比使用。*
             ```Java
             // 在任何生命周期之前调用
-            setLifecycleOwnerType(LifecycleOwnerType.VIEW);
+            setLifecycleOwnerType(LifecycleOwnerType.FRAGMENT);
             ```
             - 初始化：`IFragmentPresenter#onCreateView(LifecycleOwner)`
             - 释放：`IFragmentPresenter#onDestroyView(LifecycleOwner)`
