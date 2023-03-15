@@ -40,3 +40,5 @@ a mplementation of MVP resolution in Android platform
 
 3. 使用方法
     参考`app`模块中的示例即可。
+4. 不足
+    - View层和Presenter层，在泛型依赖上存在相互依赖问题，所以无法正常解耦。
